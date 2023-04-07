@@ -11,38 +11,46 @@
   <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
   
 <body>
-  <div class="welcome">
-    <h1>Kia ora, Welcome to my blog</h1>
-    <p> This is the beginning of my website home page.</p>
-    <p id="uc"> <!-- underConstrcution camalcase-->
-      <span class="construction">
-        <img id="c-icon" src="http://cdn.onlinewebfonts.com/svg/img_67262.png" alt="construction icon">
-      </span> 
-      Under Construction 
-      <span class="construction">
-        <img id="c-icon" src="http://cdn.onlinewebfonts.com/svg/img_67262.png" alt="construction icon"> 
-      </span>
-      <!-- DRY Principle Don't repeat yourself (ctrl+K+c shortcut for comment tags) -->
-    </p>
-  </div>
-
-  <div>
-    <h2>Hello, I am Jane!</h2>
-    <div class="textpic">
-      <img class="doreamon" src="https://i.pinimg.com/originals/b2/6f/f5/b26ff51985f2d8cb16ad2e18781c71c8.jpg"
-        alt="Doreamon picture">
-      <p class="introduction">Hi, my name is Jane (she/her). I was born and raised in China, and I moved to New Zealand
-        in 2012. Currently, I am living in Auckland.<br>
-
-        I strongly believe that honesty, kindness, and respect are fundamental values that are
-        crucial in our lives. My grandfather instilled these values in me since I was young,
-        and I have followed them ever since. These values contribute significantly to the smooth
-        functioning of teamwork. Furthermore, self-discipline is an essential quality that is
-        applicable in all aspects of life, including learning, work, and personal growth. I am
-        constantly striving to improve my self-discipline.
-      </p>
+  <section class="name">
+    <p>JANE ZHANG</p>
+  </section>
+  <nav>
+    <a class="nav" href="index.html">Home</a>
+    <a class="nav" href="tech-blog.html">Tech Blog</a>
+    <a class="nav" href="core-blog.html">Core Blog</a>
+    <a class="nav" href="about.html">About Me</a>
+  </nav>
+  <section class="welcome">
+    <p>Kia ora, Welcome to my blog</p>
+  </section>
+  <section class="blog">
+    <div class="card">
+      <div class="picture"></div>
+      <div class="intro">
+        <h1>Tech Blog</h1>
+        <p>A place where I am going to post all my tech related blogs.</p>
+        <p> <a href="./blog/te-houtaewa-template.html">Read more</a></p>
+      </div>
     </div>
-  </div>
+    <div class="card">
+      <div class="picture"></div>
+      <div class="intro">
+        <h1>Identity & values</h1>
+        <p>This is about what my identity & values are and how they are formed </p>
+        <p><a href="./blog/identity-values.html">Read more</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="picture"></div>
+      <div class="intro">
+        <h1>Learning plan</h1>
+        <p>This is my plan of study, how I am going to achieve my goals in the Bootcamp and how I am going to balance </p>
+      </div>
+    </div>
+    
+  </section>
+
+  
   <nav class="navigation"> 
     <!-- use nav selector, delete .navigation, update in CSS -->
     <div class="technav">
@@ -66,7 +74,7 @@
 </body>
 
 <footer>
-  
+
 </footer>
 
 </html>

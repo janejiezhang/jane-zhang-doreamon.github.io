@@ -1,11 +1,9 @@
 
 body {
-  background-color: bisque;
-  width: 80%;
+  background-color: rgb(106, 180, 240);
+  width: 100%;
   height:auto;
-  margin: 20px;
-  position:absolute;
-  left: 200px;
+  
 }
 
 .welcome {
