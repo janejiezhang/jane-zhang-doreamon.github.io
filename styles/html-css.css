@@ -2,10 +2,14 @@
   width: 100%;
 }
 
+.understanding,.difference {
+  display: flex;
+  flex-direction: column;
+}
+
 .diff,.definition {
   max-width: 1000px;
-  position: relative;
-  left: 25%;  
+  align-self: center; 
 }
 
 h2,.box,.image,.definition,.diff {
