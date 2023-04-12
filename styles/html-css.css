@@ -44,3 +44,8 @@ li {
   padding: 5px;
 }
 
+.image img {
+  width: 100%; 
+}
+
+
